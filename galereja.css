@@ -1,0 +1,76 @@
+body{
+	background-image: url(image/sky_texture1975.jpg);
+	margin: 0;
+        padding: 0;
+        border: none;
+        text-align: center;
+        font: normal 13px Georgia, "Times New Roman", Times, serif;
+}
+.logo, .mainContent, .menu, .footer{
+	margin: 10px auto;
+	background-color:none;
+}  
+
+.izvelne2 {
+background:yellow;
+color:#F3F781;
+padding:30px;
+height:15px;
+width:550px;
+font-size:24px;
+width: 600px;	height: 10px;  
+    outline: 2px solid #000; 
+    border: 3px solid #fff;	
+    border-radius: 10px; 
+	text-align: center;
+
+}
+
+.izvelne2  li{
+display:inline; /* saraksts tiek atspoguïots horizontâli (pçc noklusçjuma tiek atspoguïots vertikâli) */
+}
+
+.izvelne2 li a{
+text-decoration:none; /*tiek noòemts noklusçtâ krâsa */
+background:yellow;
+color:#000000; /* teksta krâsa */
+padding:10px; /*attâlums no teksta lîdz taisnastûra malâm*/
+}
+
+.izvelne2 li a:hover{
+padding:35px;
+background:white;
+color:#FF0000;
+}
+
+.footer{
+	text-align: center;
+	padding:10px;
+margin:0px;
+font-size:24px;
+text-decoration:none;
+color:#000000;
+background:none;
+color:#F7F8E0;
+text-align: center;
+}
+
+
+<style type="text/css">
+body {
+        background: #000000 url(img/header.jpg) no-repeat center top;
+	color: white;
+}
+#gallery_wrap {
+	width: 820px;
+	height: 368px;
+	padding: 25px;
+	background: url(img/border.png) top left no-repeat;
+}
+a:link,a:visited {
+	color: #000000 !important;
+	text-decoration: underline;}
+a:hover {text-decoration: none;}
+h3 {border-bottom-color: white;}
+</style>
+

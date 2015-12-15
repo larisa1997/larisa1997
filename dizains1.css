@@ -1,0 +1,66 @@
+﻿body{
+	background-image: url(image/sky_texture1975.jpg);
+	margin: 0;
+        padding: 0;
+        border: none;
+        text-align: center;
+        font: normal 13px Georgia, "Times New Roman", Times, serif;
+}
+
+}
+.logo, .mainContent, .menu, .footer{
+	margin: 10px auto;
+	background-color:none;
+	width: 1800px;
+}  
+
+.izvelne2 {
+background:yellow;
+margin:10px;
+color:#F3F781;
+padding:30px;
+height:15px;
+width:550px;
+font-size:24px;
+width: 900px;	height: 10px;  
+    outline: 2px solid #000; 
+    border: 3px solid #fff;	
+    border-radius: 10px; 
+	text-align: center;
+
+}
+
+.izvelne2  li{
+display:inline; /* saraksts tiek atspoguïots horizontâli (pçc noklusçjuma tiek atspoguïots vertikâli) */
+}
+
+.izvelne2 li a{
+text-decoration:none; /*tiek noòemts noklusçtâ krâsa */
+background:yellow;
+color:#000000; /* teksta krâsa */
+padding:10px; /*attâlums no teksta lîdz taisnastûra malâm*/
+}
+
+.izvelne2 li a:hover{
+padding:35px;
+background:white;
+color:#FF0000;
+}
+
+.footer{
+padding:10px;
+margin:10px;
+font-size:24px;
+text-decoration:none;
+color:#000000;
+width: 1000px;	height: 200px; 
+    background: #0099FF; 
+    outline: 2px solid #000; 
+    border: 3px solid #fff; 
+    border-radius: 10px; 
+	text-align: center;
+}
+
+
+
+

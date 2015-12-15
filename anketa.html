@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<link href="http://www.innovativelatvia.lv/files/inov/resize/content/Jaunumi/dabas_aizsardziba-230x215.jpg" rel="shortcut icon" type="image/x-icon">
+<title>Sākums</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	
+<link rel="stylesheet" href="anketa.css" type="text/css" media="screen" />
+</head>
+<body>
+	<div class = "image">
+		<img src = "http://cfile22.uf.tistory.com/image/152C430C49BCCAFFB1C85D" />
+
+</body>
+
+<div class = "menu">
+		<ul class = "izvelne2">
+			<li><a href = "logo.html">Galvenā lapa</a></li>
+			<li><a href = "anketa.html">Anketa</a></li>
+			<li><a href = "galerija1.html">Galerija</a></li>
+			<li><a href = "kontaktil.html">Kontakti</a></li>
+			<li><a href="registracija.html">Registracija</a></li>
+		</ul>
+	</div>
+	<div id="content">
+        <form id="jform"  method="post">
+                <fieldset>
+                        <legend>Informācija par sevi</legend>
+                        <p>
+                                <label for="fullname" class="block">Pilns vārds:</label>
+                                <input type="text" name="fullname" id="fullname" />
+                        </p>
+                        <p>
+                                <label for="birthday" class="block">Dzimšanas datums <small>(dd-mm-yyyy)</small>:</label>
+                                <input type="text" name="birthday" id="birthday" />
+                        </p>
+                        <p>
+                                <label class="block">Es esmu:</label>
+                                <input type="radio" name="gender" id="man" value="man" /> <label for="man">Zens</label>
+                                <input type="radio" name="gender" id="woman" value="woman" /> <label for="woman">Meitene</label>
+                        </p>
+                        <p>
+                                <label class="block">Man ir :</label>
+                                <input type="checkbox" name="vehicle" id="car" /> <label for="car">mašīna </label>
+                                <input type="checkbox" name="vehicle" id="airplane" /> <label for="airplane">lidmašīna</label>
+                                <input type="checkbox" name="vehicle" id="bicycle" /> <label for="bicycle">divritenis</label>
+                                <input type="checkbox" name="vehicle" id="ship" /> <label for="ship">kuģis</label>
+                        </p>
+                </fieldset>
+                <fieldset>
+                        <legend>Email</legend>
+                        <p>
+                                <label for="email" class="block">Email <small>(abcdef@gmail.com)</small>:</label>
+                                <input type="text" name="email" id="email" />
+                        </p>
+                </fieldset>
+                <fieldset>
+                        <legend>Par jums</legend>
+                        <p>
+                                <label for="about" class="block">Pastastiet mums mazliet pa sevi:</label>
+                                <textarea id="about" cols="50" rows="10"></textarea>
+                        </p>
+                </fieldset>
+                <p>
+                        <button type="submit"  id="send"  >  ok  </button>
+                </p>
+        </form>
+</div>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" charset="utf-8"></script>
+<script type="text/javascript" src="script.js" charset="utf-8"></script>
+   </div>
+ </body>
+</html>
